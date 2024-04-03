@@ -1,0 +1,53 @@
+STASKOCHI.ORG,,,,,,
+"Version Number :
+Tested By: Athira Ramachandran
+Environment Details:  Operating System :Windows 10,
+Browser:Google Chrome",,,,"Verified By:
+Date: 05/01/2024
+Module Name: HOME",,
+,,,,,,
+,,,,,,
+Test ID,Test Description,Test Procedure,Test Data,Expected Result,Actual Result,Status
+STAS_SI_01,"Verify the responding time of this 
+site throgh the link","1.https://www.staskochi.org/
+Open web site",,Should respond wihin seconds,Can get the site within seconds,PASS
+STAS_SI_02,"Verify that home page is user 
+friendly","1.https://www.staskochi.org/
+Open web site",,The Home page should be user friendly,Home page is user friendly,PASS
+STAS_SI_03,Verify the chat option is active,"1.https://www.staskochi.org/
+Open web site",,"Chat option should be active and 
+responding",Can chat throgh the chat option,PASS
+STAS_SI_04,"Verify that the social media icons 
+are clickable and responding","1.https://www.staskochi.org/
+Open web site",,"Social media icons shoulb lead to 
+the corresponding page","After clicking the Social media
+icon will load the home page again",FAILED
+STAS_SI_05,"Verify that the courses offered 
+shown in home page can give 
+details of the course","1.https://www.staskochi.org/
+Open web site
+Click on courses shown in home page",,"Should give the details while 
+clicking on each courses image","Couldn't get the detailsof course 
+while clicking course image",FAILED
+STAS_SI_06,"Verify that the contact number is 
+reachable or not","1.https://www.staskochi.org/
+Open web site
+Try the contact number given",,"Given contact number Should be 
+responding",Responding,PASS
+STAS_SI_07,"Verify that while clicking on the 
+call icon which will lead to the 
+corresponding app ","1.https://www.staskochi.org/
+Open web site
+Try the call icon",,Should lead to corresponding app ,"No any responds while clicking on 
+call icon",FAILED
+STAS_SI_08,"Verify that the PLACEMET tab is 
+responding ","1.https://www.staskochi.org/
+Open web site
+Click on PLACEMENT tab",,Should respond wihin seconds,Can get the site within seconds,PASS
+STAS_SI_09,"Verify that the ABOUT tab give the 
+clear description about this 
+organization","1.https://www.staskochi.org/
+Open web site
+Click on ABOUT tab",,"Should give a description about
+this instituition","Could not find the detailed 
+description about the instituition",FAILED
